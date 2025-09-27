@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <!-- Meta Tags for Character Encoding, Viewport, and Compatibility -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A detailed description of the website for SEO optimization.">
+    <meta name="keywords" content="web, development, modern, HTML5, CSS3, JavaScript">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+  
+    <!-- Title of the Page for SEO -->
+    <title>Your Website Title</title>
+
+    <!-- Favicon (for browser tab) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- External Stylesheets (CSS) -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts (for typography) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  <!-- Begin Header Section -->
+<header class="header" role="banner">
+  <!-- Logo Container: Left-aligned, clickable to Home -->
+  <div class="logo-container" role="navigation">
+    <a href="/" class="logo" aria-label="Go to Home Page">
+      <!-- Logo: 'Learnzo' text with a graduation cap icon -->
+      <span class="logo-text">Learnzo</span>
+      <span class="logo-icon" aria-hidden="true"><i class="fa fa-graduation-cap"></i></span>
+    </a>
+  </div>
+
+  <!-- Navigation Bar: Main Menu and Mega Menus -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <ul class="navbar-menu" role="menubar">
+      <!-- Main Navigation Links (e.g., About, Contact) -->
+      <li class="nav-item" role="none">
+        <a href="/about" class="nav-link" role="menuitem" aria-label="About Us">About</a>
+      </li>
+      <li class="nav-item" role="none">
+        <a href="/contact" class="nav-link" role="menuitem" aria-label="Contact Us">Contact</a>
+      </li>
+
+      <!-- Dropdown Mega Menu for 'Courses' -->
+      <li class="nav-item mega-menu" role="none">
+        <a href="#" class="nav-link" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Explore Courses">Courses</a>
+        <div class="mega-menu-content" role="menu" aria-hidden="true">
+          <ul class="mega-menu-list">
+            <li><a href="/courses/class" role="menuitem" aria-label="Class Overview">Class</a></li>
+            <li><a href="/courses/subjects" role="menuitem" aria-label="Subjects Overview">Subjects</a></li>
+            <li><a href="/courses/chapters" role="menuitem" aria-label="Chapters Overview">Chapters</a></li>
+          </ul>
+        </div>
+      </li>
+
+      <!-- Dropdown Mega Menu for 'Resources' -->
+      <li class="nav-item mega-menu" role="none">
+        <a href="#" class="nav-link" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Explore Resources">Resources</a>
+        <div class="mega-menu-content" role="menu" aria-hidden="true">
+          <ul class="mega-menu-list">
+            <li><a href="/resources/guides" role="menuitem" aria-label="Guides">Guides</a></li>
+            <li><a href="/resources/tutorials" role="menuitem" aria-label="Tutorials">Tutorials</a></li>
+            <li><a href="/resources/articles" role="menuitem" aria-label="Articles">Articles</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Call To Action Button (CTA): Positioned on the Right, Responsive -->
+  <div class="cta-button">
+    <a href="/courses" class="cta-btn" role="button" aria-label="Start your learning journey">Get Started</a>
+  </div>
+
+  <!-- Mobile Hamburger Icon for Small Screens -->
+  <div class="hamburger-icon" id="hamburger-icon" role="button" aria-label="Open Mobile Navigation" aria-expanded="false" aria-hidden="true">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+</header>
+<!-- End Header Section -->
+
+  
+  
+  
+  
+  
+    <!-- External JavaScript Files (placed at the end of the body for improved load times) -->
+    <script src="script.js" defer></script>
+  
+  
+</body>
+
+</html>
 
